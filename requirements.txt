@@ -1,0 +1,6 @@
+datetime
+selenium
+requests
+tkinter
+art
+pywin32  # Includes ctypes, win32gui, win32con, and win32console

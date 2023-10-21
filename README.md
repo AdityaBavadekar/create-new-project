@@ -1,8 +1,35 @@
 Auto generated on 21-10-2023-16-34
 
 # create-new-project
-create-new-project is a simple and easy-to-use ...
+Create New Project is a simple and easy-to-use project creation tool.
 
+### Chrome Webdriver is required
+
+### Note : The script requires following environment variables to be configured :
+- `PATH` - Add path to chromedriver.exe in path variables
+- `GH_DISPLAY_NAME` = Your Display Name (Mostly for License part of README). Any name with or without spaces.
+- `GH_NAME` = GitHub Username
+- `GH_PASS` = `[5 Random chars] + GitHub Password + [5 Random chars]`
+
+For Example : 
+```
+[IF] ORIGINAL_PASSWORD :- password
+[THEN] GH_PASS :- #0291password$0@30
+                  ^^^^^        ^^^^^
+                  Notice these random chars
+```
+> Adding random chars is important for security so that unknown programs do not use this password. This is also a required for the script.
+
+To set these Environment Variables from Terminal use following syntax:
+```bash
+$ set GH_DISPLAY_NAME=todo
+$ set GH_NAME=todo
+$ set GH_PASS=todo
+```
+
+# Requirements
+> 
+See `requirements.txt`
 
 ## Author
 - AdityaBavadekar
