@@ -18,7 +18,7 @@ For Example :
                   ^^^^^        ^^^^^
                   Notice these random chars
 ```
-> Adding random chars is important for security so that unknown programs do not use this password. This is also a required for the script.
+> Adding random chars is important for security so that unknown programs do not use this password. This is also required for the script.
 
 To set these Environment Variables from Terminal use following syntax:
 ```bash
@@ -26,8 +26,13 @@ $ set GH_DISPLAY_NAME=todo
 $ set GH_NAME=todo
 $ set GH_PASS=todo
 ```
+## Usage
+Run
+```bash
+python create_new_project.py
+```
 
-# Requirements
+## Requirements
 > 
 See `requirements.txt`
 
